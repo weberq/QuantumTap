@@ -1009,7 +1009,31 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(255, 255, 255, 0.8);
 }
 
+/* Transparent navbar (default state) */
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0); /* fully transparent */
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  padding: 20px 0;
+}
 
+/* Navbar when scrolled */
+.navbar-scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Navbar link styling */
+.navbar .nav-link {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #007bff;
+}
+
+/* 
 .navbar {
   min-height: 70px;
 }
@@ -1132,7 +1156,7 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar-expand-xl .navbar-nav {
     align-items: center;
   }
-}
+} */
 
 .form-control {
   padding: 8px 15px;
