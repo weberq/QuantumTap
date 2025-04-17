@@ -1366,6 +1366,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-banner {
   position: relative;
+  padding-top: 160px;
   margin-top: 16px;
   margin-bottom: 16px;
   height: 320px;
